@@ -16,7 +16,7 @@ app.use(express.urlencoded({ extended: true }))
 // Get
 const router: express.Router = express.Router()
 router.get('/', (req: express.Request, res: express.Response) => {
-  res.send("Hello World ３")
+  res.send("Hello World 4")
 })
 app.use(router)
 
